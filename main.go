@@ -36,7 +36,7 @@ func main() {
 		if a == v.nama {
 			printFriends(v)
 			found = true
-			return
+			break
 		}
 	}
 
